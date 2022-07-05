@@ -14,13 +14,13 @@ class person
 	string name = " ";
 	string post = " ";
 	short old = 0;
-	int salary = 0;
+	double salary = 0;
 public:
 	person() {};
 	string getname() { return name; }
 	string getpost() { return post; }
 	short getold() { return old; }
-	int getsalary() { return salary; }
+	double getsalary() { return salary; }
 	void craete();
 	void setsalary() { salary *= 1.075; }
 	bool operator<(person& t);
